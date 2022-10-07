@@ -11,15 +11,6 @@ import LocationCreation from './routes/Location/LocationCreation';
 
 function App() {
 
-  // const {setColorPalettes} = useContext(ColorPalettesContext)
-  
-  // useEffect(()=> {
-  //   getColorPalettes()
-  //   .then((data) => {
-  //     setColorPalettes(data);
-  //   })
-  //   .catch((err) => console.log(err));
-  // }, [])
 
   return (
       <div className='App'>
