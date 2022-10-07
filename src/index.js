@@ -4,18 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
+
 /* import { UserProvider } from './context/UserContext';
 import { FiltersProvider } from './context/FiltersContext';
  */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
+
       {/* <UserProvider>
         <FiltersProvider> */}
           <App />
         {/* </FiltersProvider>
       </UserProvider> */}
+
     </HashRouter>
   </React.StrictMode>
 );

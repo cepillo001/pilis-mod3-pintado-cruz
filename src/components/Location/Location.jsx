@@ -1,4 +1,3 @@
-
 import './Location.css';
 
 const Location = ({ location }) => {
@@ -33,3 +32,4 @@ const Location = ({ location }) => {
   
   export default Location
   
+
