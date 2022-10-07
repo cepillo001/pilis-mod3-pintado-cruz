@@ -1,7 +1,9 @@
 import './Home.css';
 import Locations from '../../components/Location/Locations';
 
+
 const Home = () => {
+
   
   
     const locationes=[

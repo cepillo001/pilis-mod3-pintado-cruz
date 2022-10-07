@@ -3,8 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './routes/Home/Home';
 import LocationDisplay from './routes/Location/LocationDisplay';
 import { useContext, useEffect} from 'react';
-// import { getColorPalettes } from './service';
-// import { ColorPalettesContext} from './context/ColorPalettesContext'
+//import { getLocations } from './service';
+//import { LocationsContext} from './contexts/LocationsContext';
 import Navigation from './routes/Navigation/Navigation';
 import Login from './routes/Login/Login';
 import LocationCreation from './routes/Location/LocationCreation';
