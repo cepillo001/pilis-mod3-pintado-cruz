@@ -8,9 +8,25 @@ import { useContext, useEffect} from 'react';
 import Navigation from './routes/Navigation/Navigation';
 import Login from './routes/Login/Login';
 import LocationCreation from './routes/Location/LocationCreation';
+import { LocationsContext } from './contexts/LocationsContext';
+
 
 function App() {
-
+  const { locations, setLocations } = useContext(LocationsContext)
+  useEffect(() => {
+    setLocations([...locations,
+      {
+        country: "jujuy",
+        latitude:-24.198446414154514,
+        longitude:-65.31877369442178,
+        temperatura:14.2,
+        windspeed:4.7,
+        url_photo:`https://lh5.googleusercontent.com/p/AF1QipOcmPnMjwphrcqfU6jV13fMCxjbwijHLdLcyRU=w408-h306-k-no`,
+    
+    }
+  ])
+  }, []);
+ 
 
   return (
       <div className='App'>

@@ -2,6 +2,7 @@ import Location from "./Location";
 import './Locations.css'
 
 const Locations = ({ locations }) => {
+  console.log(locations);
   return (
     <div className='grid'>
       {locations.map((location) => (
