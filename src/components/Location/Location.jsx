@@ -14,7 +14,7 @@ const Location = ({ location }) => {
       <div className='palette-container'>
         <div className='palette'>
           <h3>{country}</h3>
-          <img src="https://media.prensa.jujuy.gob.ar/p/eb73af988df16aa04adada4551e3ad96/adjuntos/301/imagenes/000/344/0000344408/412x232/smart/turistas-jujuy-plaza-belgranojpeg.jpeg" alt="" />
+          <img className='imagentamanio' src={url_photo} alt="" />
           <h4>{latitude}</h4>
           <h4>{longitude}</h4>
           <h4>{temperature}</h4>

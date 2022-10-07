@@ -20,7 +20,7 @@ const Home = () => {
         longitud:-65.40522463294845,
         temperatura:8.4,
         windspeed:10.5,
-        url_photo:`https://lh5.googleusercontent.com/p/AF1QipOae07NpO4z_sBqV4uV7LGwtBgVe-kqRg6IRFV4=w408-h306-k-no`,
+        url_photo:`https://static.hosteltur.com/app/public/uploads/img/articles/2019/11/07/L_134003_salta001.jpg`,
     
     }]
   return (
@@ -28,7 +28,7 @@ const Home = () => {
       <div className='main-container'>
 
        HOLA
-
+        <Locations locations={locationes}></Locations>
       </div>
     </>
   );

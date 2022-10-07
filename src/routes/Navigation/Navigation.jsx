@@ -11,7 +11,9 @@ const Navigation = () => {
         <Link className='logo-container' to='/'>
           <img src="" alt='Logo' className='logo' />
         </Link>
-        
+        <Link className='nav-link' to='location/create'>
+              Nueva Localidad
+        </Link>
       </div>
       <Outlet />
     </>
