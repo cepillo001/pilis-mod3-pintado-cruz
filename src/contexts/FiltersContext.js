@@ -14,3 +14,5 @@ export const FiltersProvider = ({ children }) => {
 
   return <FiltersContext.Provider value={value}>{children}</FiltersContext.Provider>;
 }
+
+// hay que modificarlo para que filtre los que eliminamos.
