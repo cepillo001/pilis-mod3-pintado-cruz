@@ -16,6 +16,7 @@ function App() {
   useEffect(() => {
     setLocations([...locations,
       {
+        id: locations.length + 1,
         country: "jujuy",
         latitude:-24.198446414154514,
         longitude:-65.31877369442178,
@@ -26,10 +27,10 @@ function App() {
     }
   ])
   }, []);
- 
-
+  
   return (
       <div className='App'>
+        
         <Routes>
           <Route path='/' element={<Navigation/>}>
             <Route index element={<Home/>}/>
