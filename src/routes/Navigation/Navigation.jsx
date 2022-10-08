@@ -2,6 +2,7 @@ import { useContext, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { UserContext } from '../../contexts/UserContext';
 import locationLogo from '../../assets/logoclima.png';
+//import SearchLocation from '../../components/Search/SearchLocation';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -25,6 +26,9 @@ const Navigation = () => {
         <Link className='logo-container' to='/'>
           <img src={locationLogo} alt='Logo' className='logo' />
         </Link>
+        <div className='nav-searcher'>
+            {/* <SearchLocation /> */}
+        </div>
         <div className='nav-links-container'>
             {currentUser ? (
                 <Link className='nav-link' to='location/create'>
