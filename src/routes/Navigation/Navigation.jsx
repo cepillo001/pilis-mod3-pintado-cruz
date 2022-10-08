@@ -26,9 +26,6 @@ const Navigation = () => {
         <Link className='logo-container' to='/'>
           <img src={locationLogo} alt='Logo' className='logo' />
         </Link>
-        <div className='nav-searcher'>
-            {/* <SearchLocation /> */}
-        </div>
         <div className='nav-links-container'>
             {currentUser ? (
                 <Link className='nav-link' to='location/create'>
