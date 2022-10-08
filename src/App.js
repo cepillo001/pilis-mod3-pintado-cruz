@@ -26,10 +26,10 @@ function App() {
     }
   ])
   }, []);
- 
-
+  
   return (
       <div className='App'>
+        
         <Routes>
           <Route path='/' element={<Navigation/>}>
             <Route index element={<Home/>}/>
