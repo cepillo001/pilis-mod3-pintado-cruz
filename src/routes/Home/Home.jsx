@@ -6,12 +6,16 @@ import { LocationsContext } from "../../contexts/LocationsContext"
 
 const Home = () => {
   const { locations, setLocations } = useContext(LocationsContext)
+  
   return (
     <>
       <div className='main-container'>
 
        HOLA
+       
+        
         <Locations locations={locations}></Locations>
+        
       </div>
     </>
   );
