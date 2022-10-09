@@ -17,6 +17,7 @@ const LocationCreation = () => {
     getLocations(data.latitude,data.longitude)
       .then((d) =>  {
         const locationNew ={
+          id: locations.length + 1,
           country: data.country,
           latitude:data.latitude,
           longitude:data.longitude,
@@ -30,8 +31,6 @@ const LocationCreation = () => {
       .catch((err) => console.log(err));
     console.log("termino");
     
-    
-
     navigate('/')
   }
 
