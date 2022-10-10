@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
+:root {
+  --color1: #ff6961;
+  --color2: #77dd77;
+  --color3: #fdfd96;
+  --color4: #84b6f4;
+  --color4: #fdcae1;
+}
 * {
   font-family: 'Comfortaa';
   margin: 0;

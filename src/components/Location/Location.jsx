@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { LocationsContext } from "../../contexts/LocationsContext";
 import "./Location.css";
-import { BsTrash } from "react-icons/bs";
+import { BsTrash ,BsThermometerHalf,BsWind} from "react-icons/bs";
 
 const Location = ({ location }) => {
   const { locations, setLocations } = useContext(LocationsContext);
@@ -27,11 +27,16 @@ const Location = ({ location }) => {
     <div className="location-container">
       <div className="location">
         <h3>{country}</h3>
-        <img className="imagentamanio" src={url_photo} alt="" />
-        <h4>{latitude}</h4>
-        <h4>{longitude}</h4>
-        <h4>{temperature}</h4>
-        <h4>{windspeed}</h4>
+        <div className="target">
+          <img className="imagentamanio" src={url_photo} alt="" />
+          <div className="targetderecha" >
+            <h4>latitud :  {latitude}</h4>
+            <h4>longitud :  {longitude}</h4>
+            <h4>temperatura <BsThermometerHalf></BsThermometerHalf> :{temperature}°C</h4>
+            <h4>velocidad del <BsWind></BsWind> : {windspeed}km/h</h4>
+          </div>
+        </div>
+        
       </div>
       <div className="location-actions">
         <div className="fav">
