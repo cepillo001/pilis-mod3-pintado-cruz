@@ -10,10 +10,6 @@ const Home = () => {
   return (
     <>
       <div className='main-container'>
-
-       HOLA
-       
-        
         <Locations locations={locations}></Locations>
         
       </div>
