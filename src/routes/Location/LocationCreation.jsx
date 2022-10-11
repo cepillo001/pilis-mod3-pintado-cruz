@@ -39,12 +39,12 @@ const LocationCreation = () => {
   
   
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <input type="text" placeholder="CIUDAD" {...register("country", {required: true, maxLength: 80})} />
-      <input type="text" placeholder="LATITUD" {...register("latitude", {required: true})} />
-      <input type="text" placeholder="LONGITUD" {...register("longitude", {required: true})} />
-      <input type="text" placeholder="URL FOTO" {...register("url_photo", {required: true})} />
-      <input type="submit" />
+    <form className="form" onSubmit={handleSubmit(onSubmit)}>
+      <input className="form-control" type="text" placeholder="CIUDAD" {...register("country", {required: true, maxLength: 80})} />
+      <input className="form-control" type="text" placeholder="LATITUD" {...register("latitude", {required: true})} />
+      <input className="form-control" type="text" placeholder="LONGITUD" {...register("longitude", {required: true})} />
+      <input className="form-control" type="text" placeholder="URL FOTO" {...register("url_photo", {required: true})} />
+      <input className="btn btn-light" type="submit" />
     </form>
   );
 }

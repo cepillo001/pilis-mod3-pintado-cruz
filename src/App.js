@@ -9,9 +9,11 @@ import Navigation from './routes/Navigation/Navigation';
 import Login from './routes/Login/Login';
 import LocationCreation from './routes/Location/LocationCreation';
 import { LocationsContext } from './contexts/LocationsContext';
+import { UserContext } from './contexts/UserContext';
 
 
 function App() {
+  const { currentUser, setCurrentUser} = useContext(UserContext)
   const { locations, setLocations } = useContext(LocationsContext)
   useEffect(() => {
     setLocations([...locations,
@@ -28,6 +30,7 @@ function App() {
   ])
   }, []);
   
+
   return (
       <div className='App'>
         

@@ -4,6 +4,7 @@ import { UserContext } from '../../contexts/UserContext';
 import locationLogo from '../../assets/logoclima.png';
 import './Navigation.css';
 
+
 const Navigation = () => {
     const { currentUser, setCurrentUser } = useContext(UserContext);
 
@@ -35,7 +36,7 @@ const Navigation = () => {
             )}
 
             {currentUser ? (
-                <span className='nav-link' onClick={handleSignOut}>
+                <span className='nav-link sign-out' onClick={handleSignOut}>
                     Cerrar Sesion
                 </span>
             ) : (

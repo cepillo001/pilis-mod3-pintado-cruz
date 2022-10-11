@@ -1,0 +1,50 @@
+form {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .form-control {
+    /* inputs (cajas para el texto)*/
+    display: flex;
+    width: auto;
+    padding: 0.8rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+/* BotonForm */
+.btn {
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.btn-light {
+    background: #180372;
+    border: 1px solid black;
+    color: #FFF;
+}
+
+.btn-light:hover {
+    background: #FFF;
+    border: 1px solid #3314b9;
+    color: #3816b1;
+}

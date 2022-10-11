@@ -33,6 +33,21 @@
   }
   
   .sign-in {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
+  }
+
+  .sign-in:hover{
+    color: white;
+    background-color: rgb(4, 10, 104);
+  }
+
+  .sign-out {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+  }
+
+  .sign-out:hover{
+    color: white;
+    background-color: rgb(4, 10, 104);
   }

@@ -38,7 +38,7 @@ const Login = () => {
                     type='password'
                     placeholder="Contraseña"
                     {...register('password', {
-                        required : 'Ingresar su contraseña'
+                        required : 'Ingrese su contraseña'
                         }
                     )}
                 />

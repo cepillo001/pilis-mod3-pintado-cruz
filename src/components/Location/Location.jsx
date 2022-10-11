@@ -15,6 +15,7 @@ const Location = ({ location }) => {
     url_photo,
   } = location;
 
+  //renderiza las tarjetas de las localidades cuyo id sea distinto del que se elimino
   const handleAnchorClick = () => {
     const filteredItems = locations.filter(function(item)
     {
