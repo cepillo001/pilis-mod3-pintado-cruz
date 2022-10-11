@@ -28,7 +28,7 @@ const Navigation = () => {
         </Link>
         <div className='nav-links-container'>
             {currentUser ? (
-                <Link className='nav-link' to='location/create'>
+                <Link className='nav-link enter' to='location/create'>
                     Nueva Localidad
                 </Link>
             ) : (
