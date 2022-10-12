@@ -18,8 +18,8 @@ function App() {
       {
         id: locations.length + 1,
         country: "jujuy",
-        latitude:-24.198446414154514,
-        longitude:-65.31877369442178,
+        latitude:-24.1984464,
+        longitude:-65.3187736,
         temperatura:14.2,
         windspeed:4.7,
         url_photo:`https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cerro_de_los_siete_colores.JPG/800px-Cerro_de_los_siete_colores.JPG`,
