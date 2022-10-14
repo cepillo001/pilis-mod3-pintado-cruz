@@ -2,18 +2,27 @@ import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { UserContext } from '../../contexts/UserContext';
+import { LocationsContext } from "../../contexts/LocationsContext";
 import './Login.css'
 
 const Login = () => {
     const { setCurrentUser } = useContext(UserContext)
+    const { setLocations } = useContext(LocationsContext)
     //traemos register, handleSubmit y errors a nuestro componente
     const { register, handleSubmit, formState: { errors } } = useForm();
     const navigate = useNavigate()
 
     //"data" es la informacion que el usuario carga en el formulario
     const onSubmit = (data) => {
-        localStorage.setItem('currentUser', JSON.stringify(data))
-        setCurrentUser(data)
+        const users = JSON.parse(localStorage.getItem("users")) ?? [];
+        const user = users.find((obj) => obj.user.username === data.username) ?? null;
+        if(user){
+            setCurrentUser(user.user)
+            setLocations(user.locations)
+        }else{
+            localStorage.setItem('currentUser', JSON.stringify(data))
+            setCurrentUser(data)
+        }
         navigate('/')
     }
 

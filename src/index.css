@@ -13,3 +13,12 @@
   border: 0;
   box-sizing: border-box;
 }
+
+body {
+  /* background: linear-gradient(45deg, #2f2cd3, #46fcfc); */
+  background-image: url('./assets/sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #add0ec;
+  /* height: 100vh; */
+}
