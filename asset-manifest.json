@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pilis-mod3-pintado-cruz/static/css/main.cbbab852.css",
+    "main.js": "/pilis-mod3-pintado-cruz/static/js/main.7c92e5ab.js",
+    "static/js/787.369a0ee4.chunk.js": "/pilis-mod3-pintado-cruz/static/js/787.369a0ee4.chunk.js",
+    "static/media/sky.jpg": "/pilis-mod3-pintado-cruz/static/media/sky.13e1eb47c92c46cfad4a.jpg",
+    "index.html": "/pilis-mod3-pintado-cruz/index.html",
+    "main.cbbab852.css.map": "/pilis-mod3-pintado-cruz/static/css/main.cbbab852.css.map",
+    "main.7c92e5ab.js.map": "/pilis-mod3-pintado-cruz/static/js/main.7c92e5ab.js.map",
+    "787.369a0ee4.chunk.js.map": "/pilis-mod3-pintado-cruz/static/js/787.369a0ee4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbbab852.css",
+    "static/js/main.7c92e5ab.js"
+  ]
+}
