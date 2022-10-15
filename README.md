@@ -14,6 +14,18 @@ Los usuarios que se creen se guardaran en el localStorage (si el usuario se repi
 Las tarjetas que se creen seran guardadas con ese usuario, y al volver a cargar el usuario seran mostradas.
 
 
+## Uso de React-icons
+
+Utilizamos iconos en:
+
+### - Temperatura
+
+### - Velocidad del viento
+
+### - Eliminar tarjeta
+
+
+
 ## Uso de efectos para los botones y tarjetas
 
 ## Uso de Github Pages 
